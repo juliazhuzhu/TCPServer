@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-#define PORT 8111
+#define PORT 8112
 #define MESSAGE_SIZE 1024
 #define MAX_EVENTS 20
 #define TIMEOUT 500
