@@ -10,7 +10,7 @@
 #include <stdio.h>
 
 //使用宏，定义一个端口
-#define PORT 8111
+#define PORT 8112
 //sendbuf length
 #define MESSAGE_LEN 1024
 
