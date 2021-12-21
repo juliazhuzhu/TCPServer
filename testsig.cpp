@@ -1,0 +1,21 @@
+#include <iostream>
+#include <signal.h>
+#include <unistd.h>
+
+
+void sighandle(int sig) {
+
+    std::cout << "recived signal:"
+              << sig
+              << std::endl;
+
+}
+
+int main(int argc, char *argv[]) {
+    signal(SIGINT, sighandle);
+    signal(SIGQUIT, sighandle);
+    signal(SIGHUP, sighandle);
+
+    pause();
+    return 0;
+}

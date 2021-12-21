@@ -21,3 +21,5 @@ FIND_LIBRARY(libuv libuv.a /usr/local/libuv/lib)
 include_directories("/usr/local/libuv/include")
 add_executable(LibUVUdpServer libuv_updserver.cpp)
 target_link_libraries(LibUVUdpServer ${libuv} pthread)
+
+add_executable(TestSig testsig.cpp)
