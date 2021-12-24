@@ -24,3 +24,6 @@ if (CMAKE_HOST_UNIX)
 endif()
 
 add_executable(TestSig testsig.cpp)
+add_executable(TestSigAction testsigaction.cpp)
+add_executable(TestDaemon testdaemon.cpp)
+add_executable(DaemonApp daemon_app.cpp)
